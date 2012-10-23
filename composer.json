@@ -17,6 +17,10 @@
 					"reference":"x1.2.5"
 				}
 			}
+		},
+		"petrp/httpphpunit": {
+			"type": "vcs",
+			"url": "https://github.com/Clevisaci/HttpPHPUnit"
 		}
 	},
 	"require": {
@@ -27,6 +31,11 @@
 		"kukulich/fshl": "dev-develop",
 		"michelf/php-markdown": "1.2.5",
 		"emberlabs/gravatarlib": "@dev"
+	},
+	"require-dev": {
+		"petrp/httpphpunit": "@dev",
+		"petrp/access": "@dev",
+		"mockery/mockery": "*"
 	},
 	"minimum-stability":"dev",
 	"autoload": {
